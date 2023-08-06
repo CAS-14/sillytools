@@ -1,5 +1,5 @@
 import os
-from .. import tmuxer
+import tmuxer
 
 SESSIONS_FILENAME = "potato_sessions.txt"
 
