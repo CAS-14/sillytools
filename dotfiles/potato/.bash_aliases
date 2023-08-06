@@ -1,9 +1,9 @@
 # variablez
-export TOOLSDIR="/home/cas/code/my-silly-tools"
+export TOOLSDIR="/home/cas/code/sillytools"
 
 if [ ! -d "$TOOLSDIR" ]
 then
-    echo "WARNING: my-silly-tools repo is missing!"
+    echo "WARNING: sillytools repo is missing!"
 fi
 
 # silly commands
