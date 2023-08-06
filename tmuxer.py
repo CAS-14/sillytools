@@ -24,7 +24,7 @@ def import_file(filename: str) -> list:
     for line in data.splitlines():
         line = line.strip()
         
-        if line[0] == "#" or not line:
+        if not line or line[0] == "#":
             continue
         
         line_split = line.split()
