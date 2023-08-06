@@ -1,0 +1,4 @@
+# name      directory   script
+
+casbot  ~/code/casbot       bot.py
+web     ~/code/flask-sites  RUN.py
